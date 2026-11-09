@@ -10,7 +10,9 @@ export type SttRecognizerInit = {
 
 export type SttRecognizerEvent =
   /** One decoded offline chunk; `samples` counts the stream's input-rate samples decoded so far. */
-  { type: 'chunk'; streamId: string; text: string; samples: number }
+  | { type: 'chunk'; streamId: string; text: string; samples: number }
+  /** A load step finished, so a slow load is told apart from a hung GPU. */
+  | { type: 'loading' }
 
 export type SttRecognizerPost = (event: SttRecognizerEvent) => void
 
