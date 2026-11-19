@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "20261119T185048Z--orca-independent-rerun-meta-reconcile",
+  "recorded_at": "2026-11-19T18:50:48Z",
+  "actor": "OpenSiro assistant (operator-requested metadata synchronization)",
+  "kind": "CHECKPOINT",
+  "decision": "RECONCILED_20261119_ORCA_INDEPENDENT_S3_GO_NEEDS_EVIDENCE",
+  "original_repository": "stablyai/orca",
+  "original_head": "2eb3748d5aec4ff0b44718741721b12e9b40a079",
+  "source_at_sync_ahead_commit": "ab1a03311399d05708156a89214272a469199173",
+  "source_delta_note": "14 original main commits ahead of independently reviewed source at 2026-11-19T18:40:53Z; no new-HEAD grade or full re-review claimed",
+  "index_head": "9fe281441f1820014dda5da8fff70e5fb1c9b246",
+  "assessment_blob_sha": "982a55242d439c8f685e6a02c78d7cc3988119d1",
+  "case_id": "orca-merge-required-s3-control-20261118",
+  "target_transition": "S3=— -> S3=C",
+  "proposal_stage_decision": "GO",
+  "research_disposition": "NEEDS_EVIDENCE",
+  "validation_state": "NOT_RUN",
+  "cost_status": "NOT_MEASURED",
+  "case_structural_validation": {
+    "result": "PASS",
+    "script": "opensiro/upstream/scripts/validate_capability_roadmap.py",
+    "blob_sha": "3247a00cd568d5ed02bf05a24737a2624c6e368e",
+    "scope": "STRUCTURAL_ONLY"
+  },
+  "historical_parent_commit": "7313d9072a67d4071694338bef6765909ec40531",
+  "historical_explanation": "Previous 2026-11-18 case had a conditional GO at original HEAD 270fc64d; current record transcribes fresh independent 2026-11-19 review GO/NEEDS_EVIDENCE from HEAD 2eb3748d and continuation P1-A durable exact-head review obligation versus P1-B composable Run-scoped S3 manager.",
+  "publication": "NOT_PUBLISHED",
+  "next_action": "No code/public GitHub Issue or PR. Compare native #21984 and shipped coordinator at current HEAD before implementing any S3 C."
+}

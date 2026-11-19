@@ -1,22 +1,10 @@
-# Orca fork-local roadmap case: S3 current Run commitments
+# Orca — independent S3 Run commitment roadmap synchronized
 
-- **Case ID:** `orca-merge-required-s3-control-20261118`
-- **Original:** [`stablyai/orca@270fc64dcf478e3510f88aa9f0dc58a0c78c5d52`](https://github.com/stablyai/orca/blob/270fc64dcf478e3510f88aa9f0dc58a0c78c5d52/README.md) · observed 2026-11-18
-- **Fork:** [`opensiro-contributions/orca`](https://github.com/opensiro-contributions/orca) (verified parent `stablyai/orca`)
-- **Index:** [accepted Orca assessment](https://github.com/opensiro/vsm-harness-index/blob/5f6ea0c777733813ca42e3f210390a719488dcfb/assessments/or/orca-stablyai.md) @ `c33a446190bdfa21286a373e097c50a2b3e0a4d4`, reviewed 2026-09-17, historical **S1=A · S2=C · S3=— · S3*=— · S4=— · S5=—**
-- **Result:** `PLAN_ONLY / DECISION_READY` · final operator decision **GO**, P0 S3 Run commitment controller; P1 prerequisite review-head/authority; P2 NONE
-- **Owner control:** bootstrap `DORMANT / PAUSE`; no ALLOW inferred
-- **Public fork Issue:** **NOT PUBLISHED**; exact approved destination/title/full body required separately
-- **Original PR/Issue:** no external publication or code action
+**Latest independent source-pinned proposal:** GO / NEEDS_EVIDENCE · S3=— -> S3=C · PLAN_ONLY / native NOT_RUN / cost NOT_MEASURED. Original re-run HEAD: [2eb3748d5aec4ff0b44718741721b12e9b40a079](https://github.com/stablyai/orca/commit/2eb3748d5aec4ff0b44718741721b12e9b40a079) (2026-11-19), separately newer original main [ab1a03311399d05708156a89214272a469199173](https://github.com/stablyai/orca/commit/ab1a03311399d05708156a89214272a469199173) (+14 commits at sync, not re-assessed).
 
-## Case documents
+- [Human issue.md](issue.md) — full historical S1–S5 state, merge-required user objective and bounded P0/P1/P2.
+- [AI constructor-sufficiency.md](constructor-sufficiency.md) — original-native coordinator and original Issue/PR comparison; P1-A lifecycle and P1-B actor/authority/replay/feedback; six future native tests.
+- [Canonical roadmap.md](roadmap.md) — accepted Index pins, first-party boundary, decisions, separate research/test statuses and falsifiers.
+- [Previous Orca case at 7313d9072a67d4071694338bef6765909ec40531](https://github.com/opensiro-contributions/orca/blob/7313d9072a67d4071694338bef6765909ec40531/.opensiro/issues/orca-merge-required-s3-control-20261118/roadmap.md) — prior 2026-11-18 evaluation retained in Git history.
 
-- [Human-facing decision Issue](issue.md) — canonical full *unpublished* public fork Issue body; proposed title: **Orca — merge-required Run commitment control (S3=C) roadmap (OpenSiro plan-only)**
-- [Agent/developer constructor sufficiency and acceptance](constructor-sufficiency.md) — first-party technical ports, rights and proposed tests
-- [Capability Roadmap Receipt](roadmap.md) — source pins, status, cost experiment and final decision
-
-## Deduplication and native overlap
-
-Original [issue #21984](https://github.com/stablyai/orca/issues/21984), [issue #11229](https://github.com/stablyai/orca/issues/11229), and open [PR #16852](https://github.com/stablyai/orca/pull/16852), [#10211](https://github.com/stablyai/orca/pull/10211), [#37030](https://github.com/stablyai/orca/pull/37030). No duplicate original Issue has been opened.
-
-**Next decision:** no automatic work while PAUSE; separately approve public fork Issue publication and/or authorize resumed implementation, after verifying current source, contributor formalities and real native alternative. No current Index regrade or native test claimed.
+**Why metadata was absent:** independent 2026-11-19 rerun plus continuation occurred when existing fork state was PAUSE/DORMANT and legitimately remained read-only. Owner 2026-11-19 issue-queue activation made state ACTIVE/ALLOW. Current commit synchronizes research internally, not a new grade, implementation, validation run, public fork Issue, external original action, or proof of incremental cost reduction.
