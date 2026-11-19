@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "20261119T182226Z--owner-upstream58-active",
+  "recorded_at": "2026-11-19T18:22:26Z",
+  "actor": "OpenSiro project owner (explicit 2026-11-19 instruction)",
+  "kind": "DECISION",
+  "decision": "RESUME/ALLOW; ATTENTION=ACTIVE",
+  "evidence_urls": [
+    "https://github.com/opensiro/upstream/issues/58"
+  ],
+  "note": "Owner requested removal of automatic DORMANT/PAUSE treatment and activation of all known Upstream #58 issue-queue harnesses. Previous fork state: PAUSE / DORMANT. This updates internal work attention and does not authorize external public communication or override other task/Index/evidence gates.",
+  "next_action": "Continue source-first Upstream #58 independent review and authorized internal case persistence. External publication still requires exact approval."
+}
