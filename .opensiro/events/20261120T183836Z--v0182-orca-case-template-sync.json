@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "20261120T183836Z--v0182-orca-case-template-sync",
+  "recorded_at": "2026-11-20T18:38:36.976Z",
+  "actor": "OpenSiro AI-assisted Upstream #58 bounded source-first follow-up",
+  "kind": "CHECKPOINT",
+  "decision": "SAME_CASE_TEMPLATE_REPAIRED; prior narrow S3 GO / NEEDS_EVIDENCE unchanged; current generic-coordinator duplicate NO_GO; NOT_RUN",
+  "original_repository": "stablyai/orca",
+  "original_head_observed": "fd74d16b4793fb19f985aa0486f386609826e7cf",
+  "case_id": "orca-merge-required-s3-control-20261118",
+  "source_first_checkpoint": "https://github.com/opensiro/upstream/issues/58#issuecomment-7047329680",
+  "validation": "Both v0.18.2 structural and template validators PASS before persistence; native tests NOT_RUN",
+  "publication": "NOT_PUBLISHED",
+  "next_action": "Original Orca #21984 current-head review/merge obligation native equivalence must be compared before product work"
+}

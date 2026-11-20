@@ -1,63 +1,96 @@
-# Orca — independent S3 source-native constructor and acceptance (AI)
+# Orca — source-native S3 C-construction technical contract
 
-**PLAN_ONLY · proposal-stage GO · research NEEDS_EVIDENCE · NOT IMPLEMENTED / NOT PUBLISHED**
+**Canonical storage:** opensiro-contributions/orca@opensiro/meta:.opensiro/issues/orca-merge-required-s3-control-20261118/constructor-sufficiency.md.
+**Level 1 / Human decision Issue:** [issue.md](issue.md).
+**Canonical decision receipt:** [roadmap.md](roadmap.md), authoritative for Index vector, case pins, priority and verdict.
+**Stage:** PLAN_ONLY / HYPOTHESIS, current v0.18.2 template synchronization; **DRAFT — NOT PUBLISHED**. Native validation NOT_RUN.
+
+## 1. Function-specific construction boundary and methodology checks
+
+**Source and mode boundary:** Original stablyai/orca at current original HEAD fd74d16b4793fb19f985aa0486f386609826e7cf, first-party entrypoints [docs/site/content/docs/cli/orchestration.mdx](https://github.com/stablyai/orca/blob/fd74d16b4793fb19f985aa0486f386609826e7cf/docs/site/content/docs/cli/orchestration.mdx) and [src/cli/orchestration/tasks/task-handlers.ts](https://github.com/stablyai/orca/blob/fd74d16b4793fb19f985aa0486f386609826e7cf/src/cli/orchestration/tasks/task-handlers.ts). The canonical historical research HEAD remains 2eb3748d5aec4ff0b44718741721b12e9b40a079; accepted historical Index https://github.com/opensiro/vsm-harness-index/blob/9fe281441f1820014dda5da8fff70e5fb1c9b246/assessments/or/orca-stablyai.md reviewed at c33a446190bdfa21286a373e097c50a2b3e0a4d4. The supported local first-party runtime and its explicit optional modes are the unit of analysis. Original project's own CI, third-party provider, external management and parent owner are not silently counted as agent functions.
 
 **Target transition:** S3=— -> S3=C
+
+**Six-function dependencies (S1/S2/S3/S3*/S4/S5):** S1 and S2 already have supported roles. S3 specifically concerns outstanding whole-Run post-worker obligations, not raw worker scheduling; S3* must not be inferred from human PR diff review. S5 merge policy stays human. Reuse historical S1=A · S2=C · S3=— · S3*=— · S4=— · S5=— without changing the Index. Supporting runtime permissions and transport are not themselves autonomous decisions.
+
+**Function witness:** A worker sends worker_done but the original Run still owes review, requested changes or merge of the exact PR head; the no-longer-active task may lose a rightful current owner. The legitimate independent choice and owner: an optional developer-installed whole-Run manager decides whether outstanding merge-required work should be held, reassigned, or settled based on the authoritative exact PR head. Hold review work, reassign an eligible worker, or settle only on verified exact-head merge/adoption, subject to human merge authorization. The effect and feedback must be Run/Task status and next-worker dispatch follow the lawful manager choice; later PR check/review/merge state returns to that manager..
+
+**Counterfactual owner test:** Remove the optional developer-composed S3 decision actor but keep current source machinery: Shipped Orca Run/Task/Dispatch, coordinator wakeups, worker_done and decision gates already provide current task regulation. Worker completion alone does not prove a merge-required PR was reviewed, merged and adopted. Original issue #21984 remains OPEN. The specific extra choice would then be missing: The first-pass source evidence rules OUT a generic duplicate coordinator; it does not establish that shipped current coordinator code closes the narrower merge-required exact-head objective. Prior GO is retained only for that narrower proposal, with native equivalence untested.. A mere generic hook or another model call does not count.
+
+**Possible methodological negative control:** If baseline first-party code already closes the exact owner/choice/effect/return at the supported boundary, or only a human parent may choose, report native equivalence and withdraw the new C design rather than regrade.
+
+**Contributor / maintainer priorities:** NOT_STATED as approval of this exact VSM construction; third-party product direction remains the maintainer's.
+
+## 2. Source-pinned baseline and parallel native Track A / on-top Track B
+
+**Original native workflow:** Shipped Orca Run/Task/Dispatch, coordinator wakeups, worker_done and decision gates already provide current task regulation. Worker completion alone does not prove a merge-required PR was reviewed, merged and adopted. Original issue #21984 remains OPEN. First-party pinned source: [docs/site/content/docs/cli/orchestration.mdx](https://github.com/stablyai/orca/blob/fd74d16b4793fb19f985aa0486f386609826e7cf/docs/site/content/docs/cli/orchestration.mdx) and [src/cli/orchestration/tasks/task-handlers.ts](https://github.com/stablyai/orca/blob/fd74d16b4793fb19f985aa0486f386609826e7cf/src/cli/orchestration/tasks/task-handlers.ts).
+
+**Closest existing solution:** Test ordinary native Orca coordinator and #21984-style review tracking on the same Run before building any new S3 manager; no duplicate framework or unauthorized merge.
+
+**Relevant original Issues/PRs:** https://github.com/stablyai/orca/issues/21984 (OPEN, review-to-merge objective); native Run and worker CLI are SHIPPED. Broad search found contemporary orchestration PRs but not proof the scoped obligation has shipped.. Labels such as OPEN or CLOSED are current at this follow-up only where checked; unverified heads are not treated as merged.
+
+| Required C link or operator outcome | Track A: shipped/current source | Track B: minimum integration | Falsifier |
+| --- | --- | --- | --- |
+| Bounded whole-function decision | Shipped Orca Run/Task/Dispatch, coordinator wakeups, worker_done and decision gates already provide current task regulation. Worker completion alone does not prove a merge-required PR was reviewed, merged and adopted. Original issue #21984 remains OPEN. | Hold review work, reassign an eligible worker, or settle only on verified exact-head merge/adoption, subject to human merge authorization. | The first-pass source evidence rules OUT a generic duplicate coordinator; it does not establish that shipped current coordinator code closes the narrower merge-required exact-head objective. Prior GO is retained only for that narrower proposal, with native equivalence untested. |
+| Lawful downstream effect | Source entrypoints at docs/site/content/docs/cli/orchestration.mdx and src/cli/orchestration/tasks/task-handlers.ts | Run/Task status and next-worker dispatch follow the lawful manager choice; later PR check/review/merge state returns to that manager. | Stale PR head, requested changes, lack of merge authority, coordinator loss or replay cannot yield false settlement; ordinary non-merge-required Run behavior stays unchanged. |
+
+**On-top distinctness:** The first-pass source evidence rules OUT a generic duplicate coordinator; it does not establish that shipped current coordinator code closes the narrower merge-required exact-head objective. Prior GO is retained only for that narrower proposal, with native equivalence untested. First prefer the exact native solution; a copied supervisor abstraction is insufficient.
+
+**Source ambiguity / rights blockers:** Future source HEAD/PR changes, reviewer identity, permission of the original owner, and tests are unverified. A matched fork research write does not authorize external original actions or code changes. No evidence-free demand assumption.
+
+## 3. Minimal complete S3 first-party C construction
+
+**Required property:** A first-party S3-specific path to install a legitimate autonomous decision owner, enforce its selected lawful alternative, and return later operational evidence.
+
+| Necessary native component or port | Existing first-party source | Smallest proposed change / integration | Legitimate owner, effect, return |
+| --- | --- | --- | --- |
+| Decision evidence and invocation | [docs/site/content/docs/cli/orchestration.mdx](https://github.com/stablyai/orca/blob/fd74d16b4793fb19f985aa0486f386609826e7cf/docs/site/content/docs/cli/orchestration.mdx) | Reuse native Run and Task transitions. Bind an exact current PR head and outstanding review obligation with a bounded decision authority; let a composed Run manager choose hold/reassign/settle, then require native gated effect and later provider/current-head feedback. | an optional developer-installed whole-Run manager decides whether outstanding merge-required work should be held, reassigned, or settled based on the authoritative exact PR head |
+| Bound decision and later feedback | [src/cli/orchestration/tasks/task-handlers.ts](https://github.com/stablyai/orca/blob/fd74d16b4793fb19f985aa0486f386609826e7cf/src/cli/orchestration/tasks/task-handlers.ts) | Run/Task status and next-worker dispatch follow the lawful manager choice; later PR check/review/merge state returns to that manager. | Hold review work, reassign an eligible worker, or settle only on verified exact-head merge/adoption, subject to human merge authorization. |
+
+**Architectural C-sufficiency argument:** Native baseline: Shipped Orca Run/Task/Dispatch, coordinator wakeups, worker_done and decision gates already provide current task regulation. Worker completion alone does not prove a merge-required PR was reviewed, merged and adopted. Original issue #21984 remains OPEN. The key residual is The first-pass source evidence rules OUT a generic duplicate coordinator; it does not establish that shipped current coordinator code closes the narrower merge-required exact-head objective. Prior GO is retained only for that narrower proposal, with native equivalence untested. The strongest scoped optional solution is Reuse native Run and Task transitions. Bind an exact current PR head and outstanding review obligation with a bounded decision authority; let a composed Run manager choose hold/reassign/settle, then require native gated effect and later provider/current-head feedback. Alternative one: use native/manual Test ordinary native Orca coordinator and #21984-style review tracking on the same Run before building any new S3 manager; no duplicate framework or unauthorized merge. Alternative two: avoid building if protected authority or actual feedback cannot be established. This proposal claims constructibility, not new implemented grade.
+
+**Explicit non-goals:** No unrelated function upgrades, blanket task guardian, unrequested S5 authority, generic provider dependency, automatic external PR, or forced adoption.
+
+**Implementation dependency graph:** Verify pinned current source and accepted assessment -> resolve P1 native rights/overlap/feedback proof -> implement minimal P0 only with separately authorized product work -> run native positive/negative closure tests -> reconsider adoption based on measured benefit.
+
+## 4. Priorities, optional alternative and stopping rules
+
+**P0 and P1:** P0 is First-party opt-in S3 Run-commitment snapshot, feasible hold/reassign/settle options, developer-installed autonomous S3 manager decision, Run/Task/Dispatch and protected-gate enforced intervention, and actual later provider/current-head + next-worker feedback to the same manager P1 is P1-A provider-generic durable review/merge obligation at exact PR head, named next owner/recheck and worker_done-not-merged; P1-B Run-scoped bounded manager authority, versioned/replay-safe decisions, restart-persistent current commitments, native coordinator/Task/Run/gate integration; source overlap with original #21984 and open PRs before implementation. Priorities are inherited, not newly changed.
+
+**P2:** NONE — no other function or parent policy upgrade bundled. No forced second VSM function.
+
+**Alternative path:** Test ordinary native Orca coordinator and #21984-style review tracking on the same Run before building any new S3 manager; no duplicate framework or unauthorized merge.. Prefer this if it closes the same operator outcome with no independent C need.
+
+**Stop:** Complete native equivalence, impossible independent actor right, no enforced return, policy veto or missing indispensable evidence triggers NO_GO/BLOCKED under the parent protocol. A missing measured saving is not by itself NO_GO.
+
+## 5. Future source-native acceptance — derive tests, do not copy a matrix
+
+**Native test commands and entry points:** First-party src/cli/orchestration/orchestration.test.ts and src/cli/orchestration/tasks/task-handlers.ts are actual original entrypoints; native tests NOT_RUN.
+
+**Positive functional closure:** A worker_done for a still-unmerged PR cannot settle a merge-required Run; a later verified merged exact head permits final settlement, with bounded independent hold/reassign choices.
+
+**Independent alternative (where applicable):** Hold review work, reassign an eligible worker, or settle only on verified exact-head merge/adoption, subject to human merge authorization. A genuine owner should be able to make two lawful different choices under different bounded contexts, not simply follow an always-grant rule.
+
+**Negative authority and compatibility (where applicable):** Stale PR head, requested changes, lack of merge authority, coordinator loss or replay cannot yield false settlement; ordinary non-merge-required Run behavior stays unchanged.
+
+**Matched native alternative:** Test ordinary native Orca coordinator and #21984-style review tracking on the same Run before building any new S3 manager; no duplicate framework or unauthorized merge. Execute the same task once with current native behavior and once with conditional construction. No results or economics have yet been collected.
+
+## 6. Proposal verdict, falsification, evidence ownership and handoff
+
 **Proposal-stage decision:** GO
+
 **Research disposition:** NEEDS_EVIDENCE
 
-[issue.md](issue.md) · [roadmap.md](roadmap.md)
+**Primary falsifier:** If the actual native Orca coordinator/Task/Run already provides equivalent lawful independent actor choice with durable versioned obligations and true next-operation return, or the new actor cannot control a later effect and receive feedback, separate S3=C constructor is not qualified
 
-## 1. Boundary, ownership and counterfactual
+**Validation state:** NOT_RUN; proposal only, no native tests.
 
-At source HEAD 2eb3748d5aec4ff0b44718741721b12e9b40a079, system in focus is one standard local Orca orchestration Run with Task/Dispatch/worker records, permissible CLI controls and provider-generic PR status/revision observations. Accepted historic S1 A, S2 C, S3/S3*/S4/S5 unestablished are explained in Human's six-row table. This plan proposes **not a shipped S3**, but an opt-in first-party C interface where a developer supplies a truly autonomous current-Run decision actor.
+**Ownership of truth:** Profile owns semantics; Skills owns assessment method; Index owns historical accepted classification; original stablyai/orca owns product change and maintainer choice; the [roadmap.md](roadmap.md) case receipt owns these decisions.
 
-**Owner and closure:** operator declares merge-required objective, rights and capacity; external provider reports head/check/review/merge states, but cannot exercise Orca Run authority; S3 manager sees actual current commitments and chooses hold/reassign/settle among lawful options; native Run/Task/Dispatch/gates enforce next work, and observed later Task/provider receipt changes the actor's next decision. Without composed manager, existing manual/direct native lifecycle remains valid and cannot be credited as an autonomous S3 decision.
+**Cost status:** NOT_MEASURED.
 
-## 2. Track A exact original-native work
+**Next permitted action:** Source-verify the narrow A/B comparison at current original HEAD and test scope under new explicit permission, or keep this as an unpublished research case.
 
-- [Orca README@independent HEAD](https://github.com/stablyai/orca/blob/2eb3748d5aec4ff0b44718741721b12e9b40a079/README.md) describes agent worktrees, parallel coding and human review.
-- [Original #21984](https://github.com/stablyai/orca/issues/21984) OPEN says PR opened or worker_done is not a merge-required task completion. Provider-agnostic state needs exact head checks, next owner and recheck trigger. It is the cheapest native P1-A candidate.
-- [Original #11229](https://github.com/stablyai/orca/issues/11229) OPEN proposes deterministic workflow builders over manual shell/LLM flow.
-- Original open PRs, **not shipped** at reviewed HEAD: [#16852](https://github.com/stablyai/orca/pull/16852) Run target capacity but no auto backfill; [#10211](https://github.com/stablyai/orca/pull/10211) gate notifications; [#37030](https://github.com/stablyai/orca/pull/37030) FIFO locks/board (S2), [#42284](https://github.com/stablyai/orca/pull/42284) creator/assignee identity, [#40378](https://github.com/stablyai/orca/pull/40378) first-winner gate update.
-- Current original main was subsequently observed 14 commits ahead at ab1a03311399d05708156a89214272a469199173. The related agent hook and bot item changes are **NOT evaluated as a new complete S3 assessment**; do a current source/PR overlap pass before any implementation.
-- Prior original-native comparator, explicitly required by the continuation: shipped coordinator, CLI/Run ownership, Task transitions and protected human decision gates. Compare those under the same merge-required task before adding any new autonomous actor.
+**Human backlink:** [issue.md](issue.md); **case receipt:** [roadmap.md](roadmap.md).
 
-## 3. Track B minimum complete logical C chain
-
-| Mandatory logical port | Current source-native substrate / on-top delta | Legitimate actor and returned effect |
-| --- | --- | --- |
-| S3CommitmentSnapshot | Read Run, Task, Dispatch, required outcome, provider PR head, stale check status and next action; P1-A augments durable provider-generic commitment record | Current state does NOT become decision owner merely by existing |
-| S3CurrentOptions | Compute eligible hold, reassign eligible worker, settle only after exact current-head merge, versioned under Run cap/gates | Parent defines limits; no provider or controller may mint merge rights |
-| S3DecisionConstructor | Supported opt-in first-party registration/invocation for developer-composed autonomous S3 Run manager | Actor must choose among at least two lawful alternatives; no actor implies safe default/manual path, never an invented S3=A |
-| S3AuthorizedIntervention | Atomic Run/principal/epoch, capacity and human gate check on Task/Dispatch transitions, commit/release; replay-safe and restart-persistent | Approved choice changes the **later real work** under same Run, not an explanatory log |
-| S3ReturnReceipt | Correlate decision and actual Task result, verified current PR head and merge/review outcome, denied and unknown cases, then feed updated Run obligations back to same S3 actor | A stale URL or worker_done cannot falsify completion; receipt must show actual later effect |
-
-A generic hook/scheduler, YAML workflow, single FIFO or bot worker is NOT sufficient by itself. The proposed first-party interface is function-specific and relies on an independently composed decision owner rather than a new embedded control plane. If chosen options do not affect Run work or do not reach later feedback, the construction fails C sufficiency.
-
-## 4. Priorities from two Orca chats
-
-**P0 S3=— -> S3=C, GO as a design hypothesis.** **P1-A**, durable review obligation: exact PR head at observation, owner, trigger, expiry/next check, recheck on head change, no early settlement on worker_done. **P1-B**, lawfully registered Run-scoped actor: owner authority, capacity, protected approvals, fencing/replay, restart persistence and next Task/action feedback. **P2 NONE.**
-
-**Important conditionality:** P1-A is independently useful original-native bug/feature work from Issue #21984 and can be implemented without S3. P1-B should proceed ONLY if source-native coordinator benchmark proves a distinct new decision/effect/return gap. These are dependencies, not two arbitrary new VSM functions or an implementation mandate.
-
-## 5. Native proposed acceptance (NOT EXECUTED)
-
-| Case | Setup / legal S3 choice | Required observed next effect, or stop |
-| --- | --- | --- |
-| ORCA-S3-01 | Two workers, PR opened, worker_done but review pending at head A; choose hold | Run merge-required obligation still active; no mistaken settled state; same-head receipt |
-| ORCA-S3-02 | Changes requested at exact head A; choose reassign to eligible fixer | Exactly one next Task/Dispatch within capacity; actor receives downstream result |
-| ORCA-S3-03 | Verified provider merged exact head B; choose settle | Run released only after observed outcome B and allowed gate; changed head invalidates earlier check |
-| ORCA-S3-04 | Same state, independently installed actor chooses another legal hold versus reassign | Different real admitted/held subsequent worker action under same hard rights; proves discretionary actor |
-| ORCA-S3-05 | Stale epoch, wrong Run/principal, human approval required, unknown provider, exhausted slots | Fail closed before mutation/duplicate dispatch, produce denial/unknown receipt |
-| ORCA-S3-06 | Run restart and repeated decision ID | Durable current commitment, idempotent decision and no fake merged status; no unverified remote mode claim |
-
-**Implementation compatibility:** test native first-party Run/Task/CLI mode and current PR head, compare with minimal coordinator+Issue #21984 path, verify licencing, contribution requirements and actual suite commands at implementation HEAD. Tests, CI, benchmarks and future cost observations are **NOT_RUN / NOT_MEASURED**. Human merge approval is reserved even if a model recommends settle.
-
-## 6. Falsifiers, historic comparison and gates
-
-**Primary falsifier:** shipped native coordinator already provides equivalent autonomous whole-Run discretion plus lawful next-operation effect/feedback, or the full user's merge-required outcome is handled by minimal original-native #21984 at lower/equal cost. **Secondary:** first-party model actor cannot receive allowed authority, replay-safe later effect, or truthful current-head feedback. Then NO_GO to extra C, though original issue remains valid.
-
-[Earlier Orca case](https://github.com/opensiro-contributions/orca/blob/7313d9072a67d4071694338bef6765909ec40531/.opensiro/issues/orca-merge-required-s3-control-20261118/roadmap.md) dated 2026-11-18 had conditional GO at original 270fc64d. The *independent fresh* 2026-11-19 rerun pinned 2eb3748d5aec4ff0b44718741721b12e9b40a079 and continued by separating P1-A and P1-B. It was READ_ONLY because previous fork PAUSE; the owner later changed it to ACTIVE/ALLOW. This metadata update faithfully transcribes those chat conclusions; **does not create a new independent 14-commit-later judgement**.
-
-No product code, real provider mutation, public Issue, original maintainer contact, Index grade, native test PASS or CLA consent is asserted. Fork meta persistence requires validator and exact GitHub readback.
+**AI disclosure:** Drafted with AI; no native execution, maintainer consent, economic proof or independently verified value claimed.
