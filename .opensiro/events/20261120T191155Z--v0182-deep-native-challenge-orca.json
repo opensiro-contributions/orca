@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "20261120T191155Z--v0182-deep-native-challenge-orca",
+  "recorded_at": "2026-11-20T19:11:55Z",
+  "actor": "OpenSiro AI-assisted Upstream #58 deeper source review",
+  "kind": "CHECKPOINT",
+  "decision": "SAME_CASE_SOURCE_CHALLENGE; prior proposal verdict preserved; new native-source falsifiers and/or narrow baseline tests only",
+  "original_repository": "stablyai/orca",
+  "original_head_observed": "36f3ad36b3de47d5a41bf6a9f84b4fd461d49652",
+  "case_id": "orca-merge-required-s3-control-20261118",
+  "protocol_version": "0.18.2",
+  "source_first_checkpoint": "https://github.com/opensiro/upstream/issues/58#issuecomment-7047329680",
+  "validation": "structural and publication template validators to be rerun on this exact case; no C implementation or C-native acceptance",
+  "publication": "NOT_PUBLISHED"
+}
