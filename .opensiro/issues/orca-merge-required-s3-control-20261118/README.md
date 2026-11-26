@@ -1,11 +1,9 @@
 # Orca — existing fork-local capability roadmap
 
-**Stable case:** .opensiro/issues/orca-merge-required-s3-control-20261118/. **PLAN_ONLY · GO / NEEDS_EVIDENCE** — proposed S3=— -> S3=C, not shipped and not a new Index grade.
+**PLAN_ONLY · NO_GO / DECISION_READY · NO_QUALIFIED_C_TARGET (scoped prior S3 case).**
 
-**Canonical decision receipt:** [roadmap.md](roadmap.md).
-**Human issue:** [issue.md](issue.md).
-**AI/developer technical companion:** [constructor-sufficiency.md](constructor-sufficiency.md).
+Canonical [roadmap.md](roadmap.md), [issue.md](issue.md), [constructor-sufficiency.md](constructor-sufficiency.md).
 
-This 2026-11-20 Upstream v0.18.2 follow-up reformats the same-case Human and AI documents to their six- and eight-section templates, preserving the historical canonical proposal in [roadmap.md](roadmap.md). It also rereads the current original source at fd74d16b4793fb19f985aa0486f386609826e7cf: [docs/site/content/docs/cli/orchestration.mdx](https://github.com/stablyai/orca/blob/fd74d16b4793fb19f985aa0486f386609826e7cf/docs/site/content/docs/cli/orchestration.mdx) and [src/cli/orchestration/tasks/task-handlers.ts](https://github.com/stablyai/orca/blob/fd74d16b4793fb19f985aa0486f386609826e7cf/src/cli/orchestration/tasks/task-handlers.ts). Prior first-pass and concurrency coordination are at [Upstream #58](https://github.com/opensiro/upstream/issues/58#issuecomment-7047329680).
+Accepted Index #3468 establishes S3=A; historical S3 construction proposal is superseded, not deleted. [Prior receipt](https://github.com/opensiro-contributions/orca/blob/0ced8b23447c17033d035b7c1900cc8676185dd3/.opensiro/issues/orca-merge-required-s3-control-20261118/roadmap.md).
 
-No product source code changed, no native tests executed, no outside communication approved and no status-only Upstream PR opened. The canonical receipt retains its original historical source pin, while this follow-up supplies an explicitly separate freshness observation.
+Original [#21984](https://github.com/stablyai/orca/issues/21984) remains OPEN. Terminal outcome semantics concern existing S3; separate native Upgrade or fresh other-function research requires a new scope. Owner control remains ACTIVE/ALLOW. No public communication, product change or owner promotion decision.

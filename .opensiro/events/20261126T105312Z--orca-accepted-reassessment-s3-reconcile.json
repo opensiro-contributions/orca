@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "20261126T105312Z--orca-accepted-reassessment-s3-reconcile",
+  "recorded_at": "2026-11-26T10:53:12Z",
+  "actor": "OpenSiro AI-assisted same-case reconciliation",
+  "kind": "DECISION",
+  "case_id": "orca-merge-required-s3-control-20261118",
+  "original_repository": "stablyai/orca",
+  "original_head_observed": "362ecf36396015b1425610ebd56ad81401c4872d",
+  "decision": "Scoped NO_GO / DECISION_READY: prior missing-S3 construction superseded by accepted S3=A; no conclusion about all other functions or rejection of native issue #21984",
+  "evidence_urls": [
+    "https://github.com/opensiro/vsm-harness-index/pull/3468",
+    "https://github.com/stablyai/orca/issues/21984",
+    "https://github.com/opensiro-contributions/orca/blob/0ced8b23447c17033d035b7c1900cc8676185dd3/.opensiro/issues/orca-merge-required-s3-control-20261118/roadmap.md"
+  ],
+  "validation": "Both current case validators passed; native tests NOT_RUN",
+  "publication": "NOT_PUBLISHED",
+  "next_action": "Owner may separately scope native Upgrade or fresh other-function Roadmap"
+}
