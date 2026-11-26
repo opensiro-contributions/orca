@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "20261126T114624Z--orca-owner-exception-comment",
+  "recorded_at": "2026-11-26T11:46:24Z",
+  "actor": "OpenSiro AI-assisted execution under explicit current owner direction",
+  "kind": "DECISION",
+  "case_id": "orca-merge-required-s3-control-20261118",
+  "original_repository": "stablyai/orca",
+  "original_head_observed": "007ca009ba992eae14f67693279820714fd708c2",
+  "decision": "Owner approved exact comment and explicitly directed continuation despite unrelated search fingerprint drift; one-time scope only. No exception to exact text, target, source, owner state or provider authorization. Full repeat CLI snapshot not asserted.",
+  "body_sha256": "b474a280a2fb9acbb853f392273c65f83d1e5a17ec6f84c81266f9b92677c399",
+  "history_sha256": "e816c3000e57e66a2a3345810df6a4c5c8570c79ec0b894ab295f28b82379221",
+  "prior_gate": "ROADMAP_NOT_READY_FOR_EXTERNAL_PROPOSAL: history SHA mismatch",
+  "publication": "NOT_PUBLISHED",
+  "next_action": "Verify committed case and exact live Issue before single comment POST"
+}

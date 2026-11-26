@@ -92,11 +92,13 @@ Current original pin 4e43dffdaca90950629735e77ccacb21f2513a1e; two commits ahead
 
 Source freshness recheck: two further commits from 4e43dff to 676cbc9 changed external automation management and worktree metadata; the cited Task settlement, Bot Item preamble/close, PR Watch and CONTRIBUTING blobs are byte-identical. Refreshed bounded scan has the same 755 URLs, no errors; only updated_at changed for unrelated PRs #49420 (Kimchi agent) and #47702 (plugin CodeInput), whose descriptions were rechecked. Exact candidate body remains unchanged.
 
-- Publication review source HEAD: 676cbc9b53cd454fe1a0df61cc5c3f02a5647cb1
+Owner-directed one-time exception to repeated broad-search fingerprint churn only: exact approved comment retained; latest full bounded scan had 756 results, zero errors and no same-case publication. #47845 Droid Spec plan approval is unrelated; later changes in the search set are only updated_at for #47845/#49420/#47702. Source advanced only by mobile Japanese localization; target unchanged. No global policy or validator change. The direct committed-case and exact-target/body verification still applies.
+
+- Publication review source HEAD: 007ca009ba992eae14f67693279820714fd708c2
 - Publication review action: original_issue_comment
 - Publication review destination: https://github.com/stablyai/orca/issues/21984
 - Publication review title SHA256: 8e624db61c8839405be1c5ae8a54e83ac73de8b5066c2f8986e20db25c9fc6ef
-- Publication review history SHA256: 6c0512878b684cc67d7d55d43c59101d7b7c9e5ca1b94fc1950fc9839e693c04
+- Publication review history SHA256: e816c3000e57e66a2a3345810df6a4c5c8570c79ec0b894ab295f28b82379221
 - Publication review resolution: REUSE_EXISTING
 - Publication review rationale: Reuse #21984; current Task settlement promotes dependents while bot-items-writes.ts close does not itself verify the merge requirement. Source-backed feedback proposes independent work proceed after scoped implementation, while only merge-dependent work waits on a separate verification Task and Item remains open. Existing coordinator and PR watcher retained; #47050/#47518 improve guidance, #14290 addresses worker acceptance. Bounded discovery shows no same-case publication; no absolute novelty or runtime proof. This is methodological feedback, not promotion of rejected S3 C construction.
 
