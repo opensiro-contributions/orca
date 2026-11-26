@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "20261126T114721Z--orca-comment-verified",
+  "recorded_at": "2026-11-26T11:47:21Z",
+  "actor": "OpenSiro AI-assisted execution, owner-directed",
+  "kind": "COMMENT_VERIFIED",
+  "case_id": "orca-merge-required-s3-control-20261118",
+  "original_repository": "stablyai/orca",
+  "original_head_observed": "007ca009ba992eae14f67693279820714fd708c2",
+  "decision": "Exact approved methodological feedback sent once and provider-readback verified. Prior scoped S3 construction NO_GO unchanged.",
+  "comment_url": "https://github.com/stablyai/orca/issues/21984#issuecomment-7191160399",
+  "comment_id": 7191160399,
+  "author": "xLagerFeuer",
+  "created_at": "2026-11-26T11:47:02Z",
+  "body_sha256": "b474a280a2fb9acbb853f392273c65f83d1e5a17ec6f84c81266f9b92677c399",
+  "approved_case_ref": "83df0b7dd59b35786218ae1cf908e88a49b605f9",
+  "history_sha256": "e816c3000e57e66a2a3345810df6a4c5c8570c79ec0b894ab295f28b82379221",
+  "approval": "Current-conversation exact text approval and explicit one-time instruction to continue despite unrelated history fingerprint churn. No global gate change.",
+  "publication": "COMMENT_VERIFIED",
+  "next_action": "Observe native feedback; no new publication without separate consent"
+}
