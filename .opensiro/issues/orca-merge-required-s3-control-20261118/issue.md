@@ -68,7 +68,7 @@ A = agent-owned, C = function-specific constructor, P = parent-owned, A(P)/C(P) 
 
 ## 6. Independent paths
 
-**Original-native contribution:** #21984 is existing native work; possible Upgrade separately scoped.
+**Original-native contribution:** Reuse #21984 for source-backed methodological feedback: separate implementation Task settlement from Item completion; only merge-dependent Tasks depend on a distinct verification Task. No new S3 constructor or competing feature request. See current publication evidence in the receipt.
 **Profile / Skills:** No method correction established.
 **Domain fork:** NONE.
 
@@ -80,7 +80,7 @@ Cost NOT_MEASURED; no new controller comparison requested.
 
 **Proposal-stage decision:** NO_GO
 **Research disposition:** DECISION_READY
-**Decision reason / next permitted step:** Prior S3 absence superseded. Close only this construction hypothesis; owner can separately choose an Upgrade or fresh other-function Roadmap. Not a rejection of #21984.
+**Decision reason / next permitted step:** Prior S3 absence superseded. Close only this construction hypothesis; a separate methodological comment candidate can be evaluated for owner approval, or owner can choose an Upgrade or fresh other-function Roadmap. Not a rejection of #21984.
 
 **Agent/developer handoff:** [constructor-sufficiency.md](constructor-sufficiency.md); [roadmap.md](roadmap.md).
 **Rights and publication:** MIT, ACTIVE/ALLOW; fork Issues disabled. No public communication, implementation or new authority; exact separate approval required.

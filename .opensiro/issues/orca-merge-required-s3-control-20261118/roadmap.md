@@ -86,7 +86,22 @@ No measured comparison or demand claim.
 
 ## Delivery and publication
 
+### 2026-11-26 publication-candidate reconciliation (methodological feedback, not new C proposal)
+
+Current original pin 4e43dffdaca90950629735e77ccacb21f2513a1e; two commits ahead of the scoped reconciliation pin, reviewed changed filenames (port/child process and comment-rendering changes). Re-read Task settlement, bot item rules, item schema, close transaction and store at current pin. The item done_means field is text; the close operation checks owner and writes status/event but does not itself verify merge. Task settlement promotes ready dependents on success. Existing issue #21984 and its one contributor comment ask for durable outcome ownership. The additive discussion question is to preserve implementation-task settlement separately from user-facing Item completion and use a separate verification Task only for dependent work that needs the verified merge. This is a possible minimal native composition, not an extra S3 actor, product change, promised benefit or claim of novelty. Compare #47050 prompt examples, #47518 delivery-routing template, #49022 item provenance, #14290 coordinator acceptance, #45195 and #46824 worker lifecycle, #30082 local acceptance and #39952 read-only Run event feed: read their current PR descriptions and bounded search titles; no claim of full diffs or exhaustive historical inventory. Bounded candidate scan: 755 native search results, 0 coverage/search errors, no prior same-case publication. Original issue remains open/unlocked with one comment, no contributor acceptance claimed. Reuse the existing discussion for specific source-level methodological feedback; scoped NO_GO on prior S3=C hypothesis remains. Publication promotion owner-reserved. No automatic publication.
+
+Source freshness recheck: two further commits from 4e43dff to 676cbc9 changed external automation management and worktree metadata; the cited Task settlement, Bot Item preamble/close, PR Watch and CONTRIBUTING blobs are byte-identical. Refreshed bounded scan has the same 755 URLs, no errors; only updated_at changed for unrelated PRs #49420 (Kimchi agent) and #47702 (plugin CodeInput), whose descriptions were rechecked. Exact candidate body remains unchanged.
+
+- Publication review source HEAD: 676cbc9b53cd454fe1a0df61cc5c3f02a5647cb1
+- Publication review action: original_issue_comment
+- Publication review destination: https://github.com/stablyai/orca/issues/21984
+- Publication review title SHA256: 8e624db61c8839405be1c5ae8a54e83ac73de8b5066c2f8986e20db25c9fc6ef
+- Publication review history SHA256: 6c0512878b684cc67d7d55d43c59101d7b7c9e5ca1b94fc1950fc9839e693c04
+- Publication review resolution: REUSE_EXISTING
+- Publication review rationale: Reuse #21984; current Task settlement promotes dependents while bot-items-writes.ts close does not itself verify the merge requirement. Source-backed feedback proposes independent work proceed after scoped implementation, while only merge-dependent work waits on a separate verification Task and Item remains open. Existing coordinator and PR watcher retained; #47050/#47518 improve guidance, #14290 addresses worker acceptance. Bounded discovery shows no same-case publication; no absolute novelty or runtime proof. This is methodological feedback, not promotion of rejected S3 C construction.
+
+
 - Result: PLAN_ONLY
 - External issue: DRAFT — NOT PUBLISHED
 - Previous proposal and source pins preserved in [historical receipt](https://github.com/opensiro-contributions/orca/blob/0ced8b23447c17033d035b7c1900cc8676185dd3/.opensiro/issues/orca-merge-required-s3-control-20261118/roadmap.md) and prior events; [Index PR #3468](https://github.com/opensiro/vsm-harness-index/pull/3468) supersedes old assessment.
-- No external draft approval-ready under scoped NO_GO, no public communication, product change, native tests or contribution record. Owner decides separate native Upgrade or new function research.
+- No external C-construction draft under scoped NO_GO. A separate source-backed methodological comment candidate may be reviewed under exact publication gates. No public communication, product change, native tests or contribution record.

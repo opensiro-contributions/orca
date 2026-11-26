@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "id": "20261126T113849Z--orca-methodological-feedback-draft",
+  "recorded_at": "2026-11-26T11:38:49Z",
+  "actor": "OpenSiro AI-assisted publication candidate research",
+  "kind": "CHECKPOINT",
+  "case_id": "orca-merge-required-s3-control-20261118",
+  "original_repository": "stablyai/orca",
+  "original_head_observed": "676cbc9b53cd454fe1a0df61cc5c3f02a5647cb1",
+  "decision": "REUSE_EXISTING methodological feedback; retain scoped NO_GO; owner approved draft text, final gated preview pending",
+  "evidence_urls": [
+    "https://github.com/stablyai/orca/issues/21984",
+    "https://github.com/opensiro/vsm-harness-index/pull/3468"
+  ],
+  "publication": "NOT_PUBLISHED",
+  "next_action": "Exact history/persistence/consent checks"
+}

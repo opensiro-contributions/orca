@@ -35,7 +35,7 @@
 
 **P0 and P1:** Scoped NO_QUALIFIED_C_TARGET; NONE dependencies.
 **P2:** NONE.
-**Alternative path:** Research existing Run/bot item and PR watch integration in #21984 separately if requested.
+**Alternative path:** For methodological feedback to #21984, consider keeping the implementation Task complete while the Item stays open and only merge-dependent downstream work depends on a separate verification Task. Current item close transaction enforces owner, not provider merge proof. No new C owner or implementation proposed.
 **Stop:** Existing decision ownership and returned work results defeat prior missing-S3 hypothesis, not the feature request or all possible C targets.
 
 ## 5. Future source-native acceptance — derive tests, do not copy a matrix
@@ -54,6 +54,6 @@
 **Validation state:** NOT_RUN
 **Ownership of truth:** Profile semantics; Skills methodology; Index accepted grade; original project product decisions; receipt owns this case. No independent re-review claimed.
 **Cost status:** NOT_MEASURED
-**Next permitted action:** Owner chooses separately scoped native Upgrade or fresh other-function research; no approval-ready external draft.
+**Next permitted action:** Owner chooses separately scoped native Upgrade or fresh other-function research; methodological comment candidate requires exact history/persistence/consent gates.
 **Human backlink:** [issue.md](issue.md); **case receipt:** [roadmap.md](roadmap.md).
 **AI disclosure:** AI-assisted static analysis, no independent secondary review or native execution.
